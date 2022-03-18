@@ -16,7 +16,7 @@
 ##### Secondary education: ##### 
 College VGPС (2012)
 ##### Higher education: #####
-VSTU at this moment...
+VSTU at this moment....
 ***
 ### Programming level:  ###
 *Beginner*
