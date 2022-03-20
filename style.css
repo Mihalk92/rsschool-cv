@@ -1,0 +1,32 @@
+.wrapper {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1024px;
+    padding: 0.6cm 2cm 1cm 3cm;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+li {
+    list-style-type: none;
+}
+.nav-list {
+    display: flex;
+    
+}
+.nav-list li {
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: #4f5653;
+    
+}
+a:hover {
+    color: rgb(255, 196, 0);
+}
+.ava {
+    border-radius: 50%;
+    width: 300px;
+    height: 350px;
+
+}
