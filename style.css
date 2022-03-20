@@ -28,6 +28,7 @@ a {
 }
 a:hover {
     color: rgb(255, 196, 0);
+    transition: color .3s linear;
 }
 .ava {
     border-radius: 50%;
@@ -50,6 +51,7 @@ a:hover {
     margin-left: 20px;
 }
 h1 {
+    font-size: 50px;
     margin: 40px 10px 20px 70px;
 }
 .name h2 {
@@ -60,8 +62,8 @@ h1 {
 }
 .main-left {
     width: 38%;
-    background-color: black;
-    color: #fff;
+    background-color: rgb(245, 245, 245);
+    /* color: #fff; */
 }
 .main-right {
     width: 62%;
@@ -78,7 +80,16 @@ section {
 .main-right .headline {
     border-bottom: 3px solid rgb(0, 0, 0);
 }
-.content-about-me {
+.discription {
     font-weight: 600;
     line-height: 30px;
+    font-size: 20px;
+}
+.contacts-headline {
+    background-color: #d5d5d5;
+    font-size: 25px;
+}
+.contacts-description {
+    /* color: #fff; */
+    font-size: 20px;
 }
