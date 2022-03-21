@@ -93,3 +93,9 @@ section {
     /* color: #fff; */
     font-size: 20px;
 }
+.hljs-keyword {
+    color: rgb(252, 194, 140);
+}
+.hljs-number { 
+    color: rgb(211, 99, 99);
+}

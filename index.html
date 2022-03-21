@@ -83,7 +83,22 @@
                 <section class="section-code" id="code">
                     <h2 class="headline">Code example</h2>
                     <div class="content">
-
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: rgb(255, 255, 255);">
+<code>function finalGrade (exam, projects) {
+        console.log(exam, projects);
+     <span class="hljs-keyword">if</span> (exam &gt; <span class="hljs-number">90</span> || projects &gt; <span class="hljs-number">10</span> ) {
+     <span class="hljs-keyword">return</span> <span class="hljs-number">100</span> 
+          } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (exam &gt; <span class="hljs-number">75</span> &amp;&amp; projects &gt;= <span class="hljs-number">5</span>) {
+     <span class="hljs-keyword">return</span> <span class="hljs-number">90</span>
+          } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( exam &gt; <span class="hljs-number">50</span> &amp;&amp; projects &gt;= <span class="hljs-number">2</span>) {
+     <span class="hljs-keyword">return</span> <span class="hljs-number">75</span>
+          }
+        <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>
+        }
+      } 
+</code>
+</pre>
                     </div>
                 </section>
             </div>
