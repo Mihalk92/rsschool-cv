@@ -1,0 +1,230 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* max-width: 1024px; */
+    padding: 0.6cm 2cm 1cm 3cm;
+    margin-right: auto;
+    margin-left: auto;
+    /* box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15); */
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav-list li {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #4f5653;
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgb(255, 196, 0);
+    transition: color .3s linear;
+}
+
+.ava {
+    border-radius: 50%;
+    width: 300px;
+    height: 350px;
+    box-shadow: rgb(0 0 0 / 15%) 5px 9px 20px
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 196, 0);
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 40px 10px 20px 70px;
+}
+
+.name h2 {
+    margin: 0px 10px 40px 130px;
+    ;
+}
+
+.main {
+    display: flex;
+}
+
+.main-left {
+    width: 38%;
+    background-color: rgb(245, 245, 245);
+    /* color: #fff; */
+}
+
+.main-right {
+    width: 62%;
+}
+
+section {
+    padding: 40px 0 0 9.3%;
+}
+
+.headline {
+    text-transform: uppercase;
+}
+
+.main-left .headline {
+    border-bottom: 3px solid rgb(255, 196, 0);
+}
+
+.main-right .headline {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.discription {
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.contacts-headline {
+    background-color: #d5d5d5;
+    font-size: 25px;
+}
+
+.contacts-description {
+    /* color: #fff; */
+    font-size: 20px;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+
+.hljs-keyword {
+    color: rgb(252, 194, 140);
+}
+
+.hljs-number {
+    color: rgb(211, 99, 99);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px 0px 0px 0px;
+}
+
+.logo-github {
+    width: 200px;
+}
+
+.logo-github:hover {
+    filter: drop-shadow(6px 7px 3px rgba(0, 0, 0, 0.4));
+    transition: all 0.6s ease 0s;
+}
+
+.logo-rsschool {
+    width: 200px;
+}
+
+.logo-rsschool:hover {
+    filter: drop-shadow(6px 7px 3px rgba(0, 0, 0, 0.4));
+    transition: all 0.6s ease 0s;
+}
+
+.hard-skills_scale {
+    width: 90%;
+    height: 8px;
+    background-color: rgb(250, 87, 87);
+    position: relative;
+}
+
+.hard-skills_30pr::before,
+.hard-skills_50pr::before,
+.hard-skills_40pr::before,
+.hard-skills_70pr::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #68c582;
+}
+
+.hard-skills_70pr::before {
+    width: 70%;
+}
+
+.hard-skills_50pr::before {
+    width: 50%;
+}
+
+.hard-skills_40pr::before {
+    width: 40%;
+}
+
+.hard-skills_30pr::before {
+    width: 30%;
+}
+
+.education-h3 {
+    font-size: 25px;
+}
+
+.education-p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.languages-list {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+time {
+    font-size: 30px;
+}
+
+.project {
+    width: 244px;
+    height: 147px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.project:hover {
+    transform: scale(1.2);
+}
+
+.list-preview-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
