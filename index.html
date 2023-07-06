@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>My CV</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="navigation">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                        <li><a href="#code">Code example</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hero">
+                <div class="avatar"><img class="ava" src="./img/avatar.jpg" alt="avatar"></div>
+                <div class="name">
+                    <h1>DMITRY KOVALENKO</h1>
+                    <h2>Student RSSchool</h2>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main-left">
+                <section class="section-soft-skills">
+                    <h2 class="headline">Soft skills</h2>
+                    <div class="soft-skills-list">
+                        <ul>
+                            <li>
+                                <h3>Communication</h3>
+                            </li>
+                            <li>
+                                <h3>Teamwork</h3>
+                            </li>
+                            <li>
+                                <h3>Emotional Intelligence</h3>
+                            </li>
+                            <li>
+                                <h3>Problem Solving</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section-hard-skills">
+                    <h2 class="headline">Hard skills</h2>
+                    <div class="hard-skills-list">
+                        <ul>
+                            <li>
+                                <h3>HTML5, CCS3</h3>
+                                <div class="hard-skills_scale hard-skills_70pr"></div>
+                            </li>
+                            <li>
+                                <h3>JavaScript</h3>
+                                <div class="hard-skills_scale hard-skills_30pr"></div>
+                            </li>
+                            <li>
+                                <h3>Figma</h3>
+                                <div class="hard-skills_scale hard-skills_50pr"></div>
+                            </li>
+                            <li>
+                                <h3>Photoshop</h3>
+                                <div class="hard-skills_scale hard-skills_40pr"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section-contacts">
+                    <h2 class="headline" id="contacts">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li>
+                            <h3 class="contacts-headline">Phone:</h3>
+                            <a class="contacts-description" href="tel:+375297061313">+375(29)&nbsp;706&nbsp;&#8209;&nbsp;13&nbsp;&#8209;&nbsp;13</a>
+                        </li>
+                        <li>
+                            <h3 class="contacts-headline">E-mail:</h3>
+                            <a class="contacts-description" href="mailto:mihalk9292@gmail.com">mihalk9292@gmail.com</a>
+                        </li>
+                        <li>
+                            <h3 class="contacts-headline">Telegram:</h3>
+                            <a class="contacts-description" href="tg://t.me/Mihalk92">@Mihalk9292</a>
+                        </li>
+                        <li>
+                            <h3 class="contacts-headline">Location:</h3>
+                            <p class="contacts-description">Vitebsk, Belarus</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="main-right">
+                <section class="section-about-me" id="about-me">
+                    <h2 class="headline">About me</h2>
+                    <div class="content">
+                        <p class="discription">My goal is to successfully complete my training at RSSchool in the near
+                            future. To do this, I have such qualities as: perseverance and quick learning. My hobbies
+                            are sports (football). I am currently working in a bank</p>
+                    </div>
+                </section>
+                <section class="section-education" id="education">
+                    <h2 class="headline">Education</h2>
+                    <div class="content">
+                        <ul class="education-list">
+                            <li>
+                                <h3 class="education-h3">Vitebsk State Polytechnic College</h3>
+                                <p class="education-p">Production and technical operation of devices and apparatuses</p>
+                                <p class="education-p">2008 &#8209; 2012</p>
+                            </li>
+                            <li>
+                                <h3 class="education-h3">Vitebsk State Technological University</h3>
+                                <p class="education-p">Economics and management at the enterprise</p>
+                                <p class="education-p">2019 &#8209; in progress</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section-languages" id="languages">
+                    <h2 class="headline">Languages</h2>
+                    <div class="content">
+                        <ul class="languages-list">
+                            <li>Russian native</li>
+                            <li>English A2</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section-code" id="code">
+                    <h2 class="headline">Code example</h2>
+                    <p class="discription">Create a function finalGrade, which calculates the final grade of a student
+                        depending on two parameters: a grade for the exam and a number of completed projects.</p>
+                    <div class="content">
+                        <pre class="hljs">
+<code>function finalGrade (exam, projects) {
+        console.log(exam, projects);
+     <span class="hljs-keyword">if</span> (exam &gt; <span class="hljs-number">90</span> || projects &gt; <span class="hljs-number">10</span> ) {
+     <span class="hljs-keyword">return</span> <span class="hljs-number">100</span>
+          } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (exam &gt; <span class="hljs-number">75</span> &amp;&amp; projects &gt;= <span class="hljs-number">5</span>) {
+     <span class="hljs-keyword">return</span> <span class="hljs-number">90</span>
+          } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> ( exam &gt; <span class="hljs-number">50</span> &amp;&amp; projects &gt;= <span class="hljs-number">2</span>) {
+     <span class="hljs-keyword">return</span> <span class="hljs-number">75</span>
+          }
+        <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>
+        }
+      }
+</code>
+</pre>
+                    </div>
+                </section>
+                <section class="list-projects" id="portfolio">
+                    <h2 class="headline">Portfolio</h2>
+                    <div class="list-preview-projects">
+                        <a href="https://mihalk92-portfolio.netlify.app/"><img src="./img/portfolio.png" class="project"
+                                alt="portfolio"></a>
+                        <a href="https://taskjs30.netlify.app/"><img src="./img/ipod.png" class="project" alt="ipod"></a>
+                        <a href="https://mihalk92-travel.netlify.app/"><img src="./img/travel.png" class="project"
+                                alt="travel"></a>
+                        <a href="https://mihalk92-plants.netlify.app/"><img src="./img/plants.png" class="project" alt="plants"></a>
+                        <a href="https://rolling-scopes-school.github.io/mihalk92-JSFE2022Q3/online-zoo/pages/main/index.html"><img src="./img/onlinezoo.png" class="project" alt="onlinezoo"></a>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="github">
+                <div><a href="https://github.com/Mihalk92" class="link" target="_blank"><img class="logo-github"
+                            src="./img/logo-github.jpg" alt="logo-github"></a>
+                </div>
+            </div>
+            <div class="time">
+                <div>
+                    <time>2023</time>
+                </div>
+            </div>
+            <div class="rsschool">
+                <div><a href="https://rs.school/js/" class="link" target="_blank"><img class="logo-rsschool"
+                            src="https://rs.school/images/rs_school_js.svg" alt="logo-rsschool"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
