@@ -16,7 +16,7 @@
 ##### Secondary education: #####
 College VGPС (2012)
 ##### Higher education: #####
-VSTU at this moment....
+VSTU - The economist-manager (2024)
 ***
 #### Code example: ####
 *Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.*
