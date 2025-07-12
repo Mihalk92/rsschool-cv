@@ -137,6 +137,7 @@ section {
     justify-content: space-between;
     align-items: baseline;
     margin-top: 20px 0px 0px 0px;
+    padding-top: 2%;
 }
 
 .logo-github {
